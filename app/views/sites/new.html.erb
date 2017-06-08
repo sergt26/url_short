@@ -3,6 +3,6 @@
 <%= render partial: 'sites/site_form' %>
 
 <% Site.all.each do |site| %>
-<a href="<%= 'http://' + site.url_long %>"><br><%= site.url_short%></a><br>
+<a href="<%= site.url_long %>"><br><%= site.url_short%></a><br>
 <%= site.url_long  %>
 <% end %>
