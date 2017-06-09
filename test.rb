@@ -1,0 +1,1 @@
+puts ENV['OUR_VARIABLE']
